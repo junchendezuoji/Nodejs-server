@@ -1,1 +1,2 @@
 window.name;
+console.log()

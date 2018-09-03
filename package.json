@@ -19,8 +19,8 @@
   "devDependencies": {
     "eslint": "^5.5.0",
     "eslint-config-google": "^0.9.1"
-  },
+  },            
   "dependencies": {
     "babel-eslint": "^9.0.0"
-  }
+  } 
 }
