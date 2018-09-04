@@ -1,2 +1,0 @@
-window.name;
-console.log()
