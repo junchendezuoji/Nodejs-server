@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{title}}</title>
+  <style>
+    body {
+      height: 1000px;
+      padding: 100px;
+    }
+    a {
+      display: inline-block;
+      margin: auto;
+      height: 25px;
+      margin-right: 100px;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color:rgba(0, 0, 0, 0.5)
+    }
+  </style>
+</head>
+<body>
+  {{#each files}}
+      <a href="{{../link}}/{{this}}">{{this}}</a>
+  {{/each}}
+</body>
+</html>

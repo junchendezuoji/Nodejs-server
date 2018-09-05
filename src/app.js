@@ -9,7 +9,7 @@ const server = http.createServer((req,res) => {
   const filePath = path.join(conf.root, url); //实际的路径
 
   route(req,res,filePath);
-
+  
 });
 
 server.listen(conf.port,conf.hostname,() => {
